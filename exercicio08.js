@@ -7,9 +7,11 @@
  const peso = 84;
  const altura = 1.80;
  let anoAtual = 2010; 
- let imc =  peso / (altura *altura);
+ let imc =  peso / (altura * altura);
  let anoNascimento = anoAtual - idade;
 
- console.log(nome, sobrenome, 'tem', idade, 'anos, pesa', peso, 'kg, tem', altura, 'de altura e seu imc é de', imc, nome, 'nasceu em', anoNascimento);
+console.log(`${nome}, ${sobrenome} tem ${idade} anos, pesa ${peso} kg`);
+console.log(`tem ${altura} e seu imc é de ${imc}`);
+console.log(`${nome} nasceu em ${anoNascimento}`);
 
 
