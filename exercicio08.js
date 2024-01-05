@@ -10,6 +10,6 @@
  let imc =  peso / (altura *altura);
  let anoNascimento = anoAtual - idade;
 
- console.log(nome, sobrenome);
+ console.log(nome, sobrenome, 'tem', idade, 'anos, pesa', peso, 'kg, tem', altura, 'de altura e seu imc é de', imc, nome, 'nasceu em', anoNascimento);
 
 
