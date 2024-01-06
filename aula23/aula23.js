@@ -9,3 +9,4 @@ varC = 'A';
 console.log(`o valor atual de varA é ${varA}`)
 console.log(`o valor atual de varB é ${varB}`)
 console.log(`o valor atual de varC é ${varC}`)
+
