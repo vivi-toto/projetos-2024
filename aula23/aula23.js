@@ -10,7 +10,7 @@ let varC = 'C';
 varA = varB; // varA = 'B'
 varB = varC; // varB = 'C'
 varC = varTempA; // varC = 'A' */
-
+// sem a variavel temporaria, não é possivel ter a saida esperada
 //outra forma de ser fazer:
 [varA, varB, varC] = [varB, varC, varA]
 
