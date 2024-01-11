@@ -1,5 +1,5 @@
-let myString = "O #ato #oeu a #oupa do #ei de #oma";
+let myString = "Uma string qualquer";
 
-console.log(myString.replace(/#/g, 'r'));
+console.log(myString.match(/[a-z]/g));
 
-// substituindo caracteres com regex 'replace';
+console.log(myString.slice(0, 10))
