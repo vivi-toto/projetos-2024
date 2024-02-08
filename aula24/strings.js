@@ -5,4 +5,4 @@
 // console.log(myString.slice(0, 10))
 
 let umaString = "o rato roeu a roupa do rei de roma";
-console.log(umaString.replace(/r/g, "#"))
+console.log(umaString.replace(/r/g, "#"));
