@@ -4,5 +4,15 @@
 
 // console.log(myString.slice(0, 10))
 
-let umaString = "o rato roeu a roupa do rei de roma";
-console.log(umaString.replace(/r/g, "#"));
+// let umaString = "o rato roeu a roupa do rei de roma";
+// console.log(umaString.replace(/r/g, "#"));
+
+function StringChanges(str) { 
+    str = "abNcdN";
+       console.log(StringChanges.replace(/N/g, "n" ))
+       }
+        
+        return str; 
+    
+      
+      module.exports = StringChanges;
